@@ -1,0 +1,73 @@
+body{
+  background-color: hsl(235, 18%, 26%);
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-family: Roboto, Arial, Helvetica, sans-serif ;
+}
+button{ 
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: 700;
+  width: 355px;
+  height: 60px;
+  font-size: 14px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+
+}
+.container p{
+  margin: 10px 0px;
+}
+.textContent
+ img{
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.container{
+  position: fixed;
+  background-color: white;
+  width: 900px;
+  height: 634px;
+  border-radius: 30px;
+}
+.textImage{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.textContent{
+  color: hsl(235, 18%, 26%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 55px;
+  width: 400px;
+  font-size: 16px;
+}
+.title{
+  padding: 20px 0px 5px 0px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.emailAddress{
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+#emailInput{
+  width: 330px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.notifyInvalidEmail{
+  padding-left: 130px;
+  display: inline-block;
+  color:tomato;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="assets/images/favicon-32x32.png"
+      type="images/icon"
+    />
+    <title>News Letter</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="newsLetter.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="textImage"
+        src="assets/images/illustration-sign-up-desktop.svg"
+      />
+      <div class="textContent">
+        <p class="title">Stay Updated!</p>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <p class="listIcon">
+          <img src="assets/images/icon-list.svg" />Product discovery and
+          building what matters
+        </p>
+        <p class="listIcon">
+          <img src="assets/images/icon-list.svg" />Measuring to ensure updates
+          are a success
+        </p>
+        <p class="listIcon">
+          <img src="assets/images/icon-list.svg" />And much more!
+        </p>
+        <div class="emailAddress">
+          Email address
+          <p class="notifyInvalidEmail"></p>
+        </div>
+        <input id="emailInput" type="textbox" placeholder="email@company.com" />
+        <button onclick="SubscriptionChecker()">
+          Subscribe to monthly newsletter
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
